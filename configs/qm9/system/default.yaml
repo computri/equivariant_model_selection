@@ -1,0 +1,3 @@
+gpus: 1                         # Number of GPUs
+enable_progress_bar: true       # Show progress bar
+seed: 0                         # Random seed

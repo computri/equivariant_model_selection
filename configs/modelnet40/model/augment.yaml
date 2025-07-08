@@ -1,0 +1,9 @@
+defaults:
+  - /model/default
+
+model_id: augment
+equivariance: Tn
+orientations: 0
+train_augm: true
+scalar_features: []
+vector_features: []

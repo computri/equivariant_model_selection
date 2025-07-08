@@ -1,0 +1,8 @@
+epochs: 250            # Number of training epochs
+warmup: 15             # Number of warmup epochs
+lr: 0.001             # Learning rate
+weight_decay: 1e-12     # Weight decay
+train_augm: True       # Use rotation augmentation
+
+
+

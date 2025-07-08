@@ -1,0 +1,6 @@
+# Data and logging
+data_dir: "./data/QM9"     # Data directory
+log: true                   # Enable logging
+batch_size: 96              # Batch size
+num_workers: 0              # Number of data loading workers
+targets: ["mu", "alpha", "homo", "lumo", "Cv"]  # Targets to predict

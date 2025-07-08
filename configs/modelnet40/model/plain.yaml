@@ -1,0 +1,9 @@
+defaults:
+  - /model/default
+
+model_id: plain
+equivariance: Tn
+orientations: 0
+train_augm: false
+scalar_features: []
+vector_features: []

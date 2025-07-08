@@ -1,0 +1,14 @@
+# Training configuration
+model_id: "default"
+
+# Model architecture
+hidden_dim: 128
+basis_dim: 256
+basis_hidden_dim: 128
+degree: 2
+layers: [1, 1, 1, 1, 1]
+widening: 4
+edge_type: ["knn-8", "knn-8", "knn-8", "knn-8", "fc"]
+ratios: []
+layer_scale: null
+skip_connections: true

@@ -1,0 +1,2 @@
+test_ckpt: null           # Path to checkpoint for testing
+resume_ckpt: null         # Path to checkpoint to resume training from

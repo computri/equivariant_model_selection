@@ -1,0 +1,14 @@
+device: cuda
+
+hydra:
+  job:
+    chdir: False
+
+defaults:
+  - _self_
+  - data: default
+  - train: default
+  - test: default
+  - model: default
+  - system: default
+  - cp: default

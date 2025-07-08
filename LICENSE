@@ -1,0 +1,9 @@
+This project contains original code by Putri van der Linden and includes portions adapted from:
+
+- EquivarianceStudy (MIT License, © 2024 SharvareeVadgama)
+- TorchCP (LGPL-3.0, © 2022 SUSTech Machine Learning and Statistics Group)
+
+All source files include appropriate license and attribution headers.
+
+The overall project is licensed under the GNU Lesser General Public License v3.0 (LGPL-3.0).
+See https://www.gnu.org/licenses/lgpl-3.0.html for the full license text.

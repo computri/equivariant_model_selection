@@ -1,0 +1,11 @@
+# defaults:
+#   - override /model: default
+defaults:
+  - /model/default 
+
+model_id: plain
+equivariance: Tn               # Type of equivariance
+orientations: 0                # Number of orientations
+train_augm: false              # Disable augmentation during training
+scalar_features: []            # Features to use as scalars
+vector_features: []            # Features to use as vectors

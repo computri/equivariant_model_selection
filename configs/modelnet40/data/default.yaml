@@ -1,0 +1,15 @@
+# Input features
+scalar_features: []         # Features to use as scalars: ["coords"]
+vector_features: []         # Features to use as vectors: ["coords"]
+
+# Data and logging
+data_dir: "./data/modelnet40"     # Data directory
+log: true                   # Enable logging
+batch_size: 10              # Batch size
+num_workers: 0              # Number of data loading workers
+num_points: 1024
+
+#     # Training features
+#     parser.add_argument('--train_augm', type=eval, default=True, help='Use rotation augmentation during training')
+#     parser.add_argument('--test_augm', type=eval, default=False, help='Use rotation augmentation during testing')
+#     parser.add_argument('--num_points', type=int, default=1024, help='Number of points to sample')

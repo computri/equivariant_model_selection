@@ -1,0 +1,24 @@
+# Training configuration
+model_id: "default"
+seed: 1                         # Random seed
+epochs: 300                     # Number of training epochs
+lr: 0.0005                      # Learning rate
+weight_decay: 1e-10             # Weight decay
+warmup: 50                      # Number of warmup epochs
+batch_size: 96                  # Batch size
+
+# Model architecture
+hidden_dim: 256                 # Hidden dimension
+basis_dim: 256                  # Basis dimension
+basis_hidden_dim: 128           # Hidden dimension of the basis function MLP
+degree: 2                       # Polynomial degree
+layers: 7                       # Number of layers
+widening: 4                     # Network widening factor
+edge_type: ["fc"]               # Edge types
+ratios: []                      # Pooling ratios
+layer_scale: null               # Layer scaling factor
+skip_connections: false         # Use U-Net style skip connections
+
+
+scalar_features: []         # Features to use as scalars: ["coords"]
+vector_features: []         # Features to use as vectors: ["coords"]
