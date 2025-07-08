@@ -2,6 +2,7 @@ This project contains original code by Putri van der Linden and includes portion
 
 - EquivarianceStudy (MIT License, © 2024 SharvareeVadgama)
 - TorchCP (LGPL-3.0, © 2022 SUSTech Machine Learning and Statistics Group)
+- laplace-torch (MIT License, © 2021 Alex Immer)
 
 All source files include appropriate license and attribution headers.
 
