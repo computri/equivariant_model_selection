@@ -96,7 +96,7 @@ We provide pretrained model checkpoints [**here**](https://drive.google.com/driv
 ⸻
 
 
-## 🚀 Usage
+## Usage
 
 This repository provides tools for uncertainty-aware model selection across different symmetry-constrained architectures. The workflow consists of three main stages:
 
