@@ -1,0 +1,10 @@
+# Ignore Python cache folders
+__pycache__/
+**/__pycache__/
+
+# Ignore contents of specific directories
+checkpoints/
+data/
+torchcp/
+results/
+outputs/
