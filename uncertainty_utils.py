@@ -1,9 +1,15 @@
 import torch
 from netcal.metrics import ECE
 import torch.distributions as dists
+from typing import Dict, Any, Union
+from torch.utils.data import DataLoader
 
 
-def evaluate_model_regression(la, dataloader, device='cuda'):
+def evaluate_model_regression(
+    la: Any, 
+    dataloader: DataLoader, 
+    device: str = 'cuda'
+) -> Dict[str, float]:
     all_mu, all_var, all_y = [], [], []
 
     for x in dataloader:
@@ -35,7 +41,11 @@ def evaluate_model_regression(la, dataloader, device='cuda'):
     }
 
 
-def evaluate_model_classification(model, dataloader, device='cuda'):
+def evaluate_model_classification(
+    model: Any, 
+    dataloader: DataLoader, 
+    device: str = 'cuda'
+) -> Dict[str, Union[float, int]]:
     all_pred,  all_y = [], []
 
     for x in dataloader:

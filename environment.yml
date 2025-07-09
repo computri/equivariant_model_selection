@@ -1,0 +1,25 @@
+name: equivariant_model_selection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - ipython
+  - ipykernel
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pytorch
+  - torchaudio
+  - torchvision
+  - pip:
+      - torch-geometric
+      - laplace-torch
+      - wandb
+      - einops
+      - schnetpack
+      - unfoldnd
+      - backpack-for-pytorch
+      - torchcp
